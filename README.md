@@ -41,7 +41,7 @@ The results of the data processing are displayed in new sheets in the Excel file
 For more information, read the documentation.
 
 ## Related projects
-EMPIR 19RNM03 SI-Hg
+EMPIR 19NRM03 SI-Hg - Metrology for traceable protocols for elemental and oxidised mercury concentrations
 
 ## License
 This code is provided under the Creative Commons Attribution 4.0 International Public License.
