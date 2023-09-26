@@ -15,8 +15,7 @@ The template for the multi point calibration calculates the above listed items f
 Details about the equations implemented can be found in Protocol for the *SI-traceable calibration of elemental mercury (Hg<sup>0</sup>) gas generators used in the field*.
 
 ## Documentation
-The documentation of the templates is included in this repository (see PDF file *documentation_20230921.pdf* for the latest version).
-To facilitate future updates of the documentation, the LaTex source file (*SI-Hg documentation.zip*) used to generate the PDF file is also included in this report.
+The documentation of the templates is included in this repository, see PDF file *Documentation.pdf*.
 
 ## Requirements
 Details about the software requirements necessary to execute the code are listed in the documentation.
