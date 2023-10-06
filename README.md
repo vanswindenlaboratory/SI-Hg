@@ -43,5 +43,8 @@ For more information, read the documentation.
 ## Related projects
 EMPIR 19NRM03 SI-Hg - Metrology for traceable protocols for elemental and oxidised mercury concentrations
 
+## Acknowledgment
+This project (19NRM03 SI-Hg) has received funding from the EMPIR programme co-financed by the Participating States and from the European Union’s Horizon 2020 research and innovation programme.
+
 ## License
 This code is provided under the Creative Commons Attribution 4.0 International Public License.
