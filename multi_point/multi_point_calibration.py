@@ -1426,25 +1426,17 @@ def main():
         function = list_functions[poly_deg]
         # ----------------------------------------------------------------------------
         # channel A
-        wls_pred_AA =  predict(
-            poly_deg, 
-            wls_regression_A[function], 
-            list(cand_A_concentrations.keys())) 
         ax0.scatter(
             x=list(cand_A_concentrations.keys()), 
-            y=(list(cand_A_concentrations.values()) - wls_pred_AA)/list(u_combined_A.values()), 
+            y=(wls_regression_A[function].resid)/wls_weights_A, 
             color=col[function], 
             label='{}'.format(function))
 
         # ----------------------------------------------------------------------------
         # channel B
-        wls_pred_BB =  predict(
-            poly_deg, 
-            wls_regression_B[function], 
-            list(cand_B_concentrations.keys())) 
         ax1.scatter(
             x=list(cand_B_concentrations.keys()), 
-            y=(list(cand_B_concentrations.values()) - wls_pred_BB)/list(u_combined_B.values()), 
+            y=(wls_regression_B[function].resid)/wls_weights_B, 
             color=col[function], 
             label='{}'.format(function))
 
