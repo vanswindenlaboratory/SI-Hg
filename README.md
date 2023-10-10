@@ -48,3 +48,6 @@ This project (19NRM03 SI-Hg) has received funding from the EMPIR programme co-fi
 
 ## License
 This code is provided under the Creative Commons Attribution 4.0 International Public License.
+
+## DOI
+[![DOI](https://zenodo.org/badge/696807020.svg)](https://zenodo.org/badge/latestdoi/696807020)
