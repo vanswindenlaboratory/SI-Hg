@@ -1415,11 +1415,11 @@ def main():
         212, 
         title='Channel B', 
         xlabel=r'Setpoint $[ng\ m^{-3}]$', 
-        ylabel=r'Weighted residuals $[ng\ m^{-3}]$')
+        ylabel='Weighted residuals')
     ax0 = fig.add_subplot(
         211, 
         title='Channel A', 
-        ylabel=r'Weighted residuals $[ng\ m^{-3}]$', 
+        ylabel='Weighted residuals', 
         sharex=ax1)
 
     for poly_deg in range(max(2,n_setpoints-2)):
@@ -1453,8 +1453,8 @@ def main():
         lw=2, 
         color='black')
 
-    ax0.set_ylim([-1.0, +1.0])
-    ax1.set_ylim([-1.0, +1.0])
+    ax0.set_ylim([-2.0, +2.0])
+    ax1.set_ylim([-2.0, +2.0])
 
     ax0.legend(loc='best', ncol=1, bbox_to_anchor=(1., .5, 0.5, 0.5))
     plt.tight_layout()
